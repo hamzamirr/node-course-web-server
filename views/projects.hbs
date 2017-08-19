@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="">
-
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
     <title></title>
 </head>
 
 <body>
-    {{> header}}
-    <h3> {{uppercase name}} </h3>
-    <p>hola amigos</p>
-    <button>
-    <a href="/projects">projects</a>
-    </button>
-      <button>
-    <a href="/home1">home1</a>
-    </button>
-    {{> footer}}
-</body>
+    <h1>{{title}} </h1>
+    <h3>hello from projects.hbs</h3>
+   
+<button><a href="/">home</a></button>
+    <button><a href="/home1">home1</a></button>
 
+
+
+    {{>footer}}
+</body>
 </html>
